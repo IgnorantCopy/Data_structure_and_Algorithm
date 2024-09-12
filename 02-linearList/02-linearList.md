@@ -1,0 +1,58 @@
+# 线性表
+
+## 1. 逻辑结构
+
+### 1.1 逻辑特征
+
+1. 有且仅有一个开始节点 $a_1$ ，它没有前驱，只有后继 $a_2$
+2. 有且仅有一个终端节点 $a_n$ ，它没有后继，只有前驱 $a_{n-1}$
+3. 其余的内部节点 $a_i(2 \le i \le n-1)$ 都有且仅有一个直接前驱 $a_{i-1}$ 和一个直接后继 $a_{i+1}$
+
+## 2. 存储方式
+
+### 2.2 顺序存储——顺序表
+
+* 逻辑顺序与物理顺序一致
+* $Loc(a_{i+1})=Loc(a_i) + m$ , 其中 $Loc()$ 是存储位置 ,  $m$ 是单个元素占据的存储单元数
+
+#### 2.2.1 静态存储和动态存储
+
+```c++
+// 静态存储
+typedef int T;
+typedef struct {
+    T data[maxSize];
+    int n;
+} SeqList;
+
+// 动态存储
+typedef int T;
+typedef struct {
+    T *data;
+    int maxSize;
+    int n;
+} SeqList;
+```
+
+#### 2.2.2 顺序查找的时间代价分析
+
+* 搜索成功：设位置 $i$ 的查找概率为 $p_i$ ，找到时数据比较次数为 $c_i$ 
+
+  则平均比较次数 $ACN=\sum\limits_{i=0}^{n-1} p_i \times c_i$
+
+  如果 $p_i$ 相等，则 $ ACN=\dfrac{1}{n} \sum\limits_{i=0}^{n-1}(i+1)=\dfrac{1}{n}\cdot \dfrac{(1+n)\cdot n}{2}=\dfrac{1+n}{2} $
+
+* 搜索失败：数据比较 $n$ 次
+
+#### 2.2.3 顺序插入的时间代价分析
+
+$ AMN=\dfrac{1}{n+1}\sum\limits_{i=1}^{n+1}(n-i+1)=\dfrac{1}{n+1}\cdot\dfrac{n(n+1)}{2}=\dfrac{n}{2} $ 
+
+#### 2.2.4 顺序删除的时间代价分析
+
+$ AMN=\dfrac{1}{n}\sum\limits_{i=1}^{n}(n-i)=\dfrac{1}{n}\cdot\dfrac{(n-1)n}{2}=\dfrac{n-1}{2} $
+
+#### 2.2.5 顺序表的特点
+
+* 优点： 节省存储空间，存取速度快。
+* 缺点：插入、删除等操作需要移动大量数据
