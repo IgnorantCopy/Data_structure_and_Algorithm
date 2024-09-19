@@ -1,0 +1,116 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "01-hello",
+					"jsonFile" : "directory-01-hello-Debug-14881e6e1ee1404162fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01-hello"
+				},
+				{
+					"build" : "02-linearList",
+					"jsonFile" : "directory-02-linearList-Debug-3188357b695f991c27c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "02-linearList",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "Data_structure_and_Algorithm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "circleList::@6aea84b3daf2a468bdb3",
+					"jsonFile" : "target-circleList-Debug-9b1dddeafe3dda63bfb2.json",
+					"name" : "circleList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "doubleLinkedList::@6aea84b3daf2a468bdb3",
+					"jsonFile" : "target-doubleLinkedList-Debug-91ebaf058fcb6ba3fdb9.json",
+					"name" : "doubleLinkedList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "linkList::@6aea84b3daf2a468bdb3",
+					"jsonFile" : "target-linkList-Debug-93d732c3aecaf76006c4.json",
+					"name" : "linkList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sequentialList::@6aea84b3daf2a468bdb3",
+					"jsonFile" : "target-sequentialList-Debug-1c04498c339c357739f7.json",
+					"name" : "sequentialList",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/codes/Data_structure_and_Algorithm/cmake-build-debug",
+		"source" : "D:/codes/Data_structure_and_Algorithm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
