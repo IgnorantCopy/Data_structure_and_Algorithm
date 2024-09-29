@@ -107,7 +107,7 @@ build cmake_object_order_depends_target_sequentialList: phony || 02-linearList/C
 
 build 02-linearList/CMakeFiles/sequentialList.dir/src/sequentialList.cpp.obj: CXX_COMPILER__sequentialList_unscanned_Debug D$:/codes/Data_structure_and_Algorithm/02-linearList/src/sequentialList.cpp || cmake_object_order_depends_target_sequentialList
   DEP_FILE = 02-linearList\CMakeFiles\sequentialList.dir\src\sequentialList.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = 02-linearList\CMakeFiles\sequentialList.dir
   OBJECT_FILE_DIR = 02-linearList\CMakeFiles\sequentialList.dir\src
 
@@ -140,7 +140,7 @@ build cmake_object_order_depends_target_linkList: phony || 02-linearList/CMakeFi
 
 build 02-linearList/CMakeFiles/linkList.dir/src/linkedList.cpp.obj: CXX_COMPILER__linkList_unscanned_Debug D$:/codes/Data_structure_and_Algorithm/02-linearList/src/linkedList.cpp || cmake_object_order_depends_target_linkList
   DEP_FILE = 02-linearList\CMakeFiles\linkList.dir\src\linkedList.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = 02-linearList\CMakeFiles\linkList.dir
   OBJECT_FILE_DIR = 02-linearList\CMakeFiles\linkList.dir\src
 
@@ -173,7 +173,7 @@ build cmake_object_order_depends_target_circleList: phony || 02-linearList/CMake
 
 build 02-linearList/CMakeFiles/circleList.dir/src/circleList.cpp.obj: CXX_COMPILER__circleList_unscanned_Debug D$:/codes/Data_structure_and_Algorithm/02-linearList/src/circleList.cpp || cmake_object_order_depends_target_circleList
   DEP_FILE = 02-linearList\CMakeFiles\circleList.dir\src\circleList.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = 02-linearList\CMakeFiles\circleList.dir
   OBJECT_FILE_DIR = 02-linearList\CMakeFiles\circleList.dir\src
 
@@ -206,7 +206,7 @@ build cmake_object_order_depends_target_doubleLinkedList: phony || 02-linearList
 
 build 02-linearList/CMakeFiles/doubleLinkedList.dir/src/doubleLinkedList.cpp.obj: CXX_COMPILER__doubleLinkedList_unscanned_Debug D$:/codes/Data_structure_and_Algorithm/02-linearList/src/doubleLinkedList.cpp || cmake_object_order_depends_target_doubleLinkedList
   DEP_FILE = 02-linearList\CMakeFiles\doubleLinkedList.dir\src\doubleLinkedList.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = 02-linearList\CMakeFiles\doubleLinkedList.dir
   OBJECT_FILE_DIR = 02-linearList\CMakeFiles\doubleLinkedList.dir\src
 
@@ -252,7 +252,397 @@ build 02-linearList/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 02-linearList/rebuild_cache: phony 02-linearList/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/Data_structure_and_Algorithm/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build 03-Stack&Queue/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "D:\codes\Data_structure_and_Algorithm\cmake-build-debug\03-Stack&Queue" && "D:\Program Files (x86)\CLion\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 03-Stack&Queue/edit_cache: phony 03-Stack&Queue/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 03-Stack&Queue/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "D:\codes\Data_structure_and_Algorithm\cmake-build-debug\03-Stack&Queue" && "D:\Program Files (x86)\CLion\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\Data_structure_and_Algorithm -BD:\codes\Data_structure_and_Algorithm\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 03-Stack&Queue/rebuild_cache: phony 03-Stack&Queue/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/Data_structure_and_Algorithm/03-Stack&Queue/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-stack
+
+
+#############################################
+# Order-only phony target for 01-stack
+
+build cmake_object_order_depends_target_01-stack: phony || 03-Stack&Queue/01-stack/CMakeFiles/01-stack.dir
+
+build 03-Stack&Queue/01-stack/CMakeFiles/01-stack.dir/01-stack.cpp.obj: CXX_COMPILER__01-stack_unscanned_Debug D$:/codes/Data_structure_and_Algorithm/03-Stack&Queue/01-stack/01-stack.cpp || cmake_object_order_depends_target_01-stack
+  DEP_FILE = "03-Stack&Queue\01-stack\CMakeFiles\01-stack.dir\01-stack.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = "03-Stack&Queue\01-stack\CMakeFiles\01-stack.dir"
+  OBJECT_FILE_DIR = "03-Stack&Queue\01-stack\CMakeFiles\01-stack.dir"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-stack
+
+
+#############################################
+# Link the executable 03-Stack&Queue\01-stack\01-stack.exe
+
+build 03-Stack&Queue/01-stack/01-stack.exe: CXX_EXECUTABLE_LINKER__01-stack_Debug 03-Stack&Queue/01-stack/CMakeFiles/01-stack.dir/01-stack.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = "03-Stack&Queue\01-stack\CMakeFiles\01-stack.dir"
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = "03-Stack&Queue\01-stack\01-stack.exe"
+  TARGET_IMPLIB = "03-Stack&Queue\01-stack\lib01-stack.dll.a"
+  TARGET_PDB = 01-stack.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 03-Stack&Queue/01-stack/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "D:\codes\Data_structure_and_Algorithm\cmake-build-debug\03-Stack&Queue\01-stack" && "D:\Program Files (x86)\CLion\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 03-Stack&Queue/01-stack/edit_cache: phony 03-Stack&Queue/01-stack/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 03-Stack&Queue/01-stack/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "D:\codes\Data_structure_and_Algorithm\cmake-build-debug\03-Stack&Queue\01-stack" && "D:\Program Files (x86)\CLion\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\Data_structure_and_Algorithm -BD:\codes\Data_structure_and_Algorithm\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 03-Stack&Queue/01-stack/rebuild_cache: phony 03-Stack&Queue/01-stack/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/Data_structure_and_Algorithm/03-Stack&Queue/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build 03-Stack&Queue/02-queue/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "D:\codes\Data_structure_and_Algorithm\cmake-build-debug\03-Stack&Queue\02-queue" && "D:\Program Files (x86)\CLion\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 03-Stack&Queue/02-queue/edit_cache: phony 03-Stack&Queue/02-queue/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 03-Stack&Queue/02-queue/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "D:\codes\Data_structure_and_Algorithm\cmake-build-debug\03-Stack&Queue\02-queue" && "D:\Program Files (x86)\CLion\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\Data_structure_and_Algorithm -BD:\codes\Data_structure_and_Algorithm\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 03-Stack&Queue/02-queue/rebuild_cache: phony 03-Stack&Queue/02-queue/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/Data_structure_and_Algorithm/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build homework/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\Data_structure_and_Algorithm\cmake-build-debug\homework && "D:\Program Files (x86)\CLion\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build homework/edit_cache: phony homework/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build homework/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\Data_structure_and_Algorithm\cmake-build-debug\homework && "D:\Program Files (x86)\CLion\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\Data_structure_and_Algorithm -BD:\codes\Data_structure_and_Algorithm\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build homework/rebuild_cache: phony homework/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/Data_structure_and_Algorithm/homework/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-reverse
+
+
+#############################################
+# Order-only phony target for 01-reverse
+
+build cmake_object_order_depends_target_01-reverse: phony || homework/01-hello/CMakeFiles/01-reverse.dir
+
+build homework/01-hello/CMakeFiles/01-reverse.dir/01-reverse.cpp.obj: CXX_COMPILER__01-reverse_unscanned_Debug D$:/codes/Data_structure_and_Algorithm/homework/01-hello/01-reverse.cpp || cmake_object_order_depends_target_01-reverse
+  DEP_FILE = homework\01-hello\CMakeFiles\01-reverse.dir\01-reverse.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = homework\01-hello\CMakeFiles\01-reverse.dir
+  OBJECT_FILE_DIR = homework\01-hello\CMakeFiles\01-reverse.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-reverse
+
+
+#############################################
+# Link the executable homework\01-hello\01-reverse.exe
+
+build homework/01-hello/01-reverse.exe: CXX_EXECUTABLE_LINKER__01-reverse_Debug homework/01-hello/CMakeFiles/01-reverse.dir/01-reverse.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homework\01-hello\CMakeFiles\01-reverse.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework\01-hello\01-reverse.exe
+  TARGET_IMPLIB = homework\01-hello\lib01-reverse.dll.a
+  TARGET_PDB = 01-reverse.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build homework/01-hello/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\Data_structure_and_Algorithm\cmake-build-debug\homework\01-hello && "D:\Program Files (x86)\CLion\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build homework/01-hello/edit_cache: phony homework/01-hello/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build homework/01-hello/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\Data_structure_and_Algorithm\cmake-build-debug\homework\01-hello && "D:\Program Files (x86)\CLion\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\Data_structure_and_Algorithm -BD:\codes\Data_structure_and_Algorithm\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build homework/01-hello/rebuild_cache: phony homework/01-hello/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/codes/Data_structure_and_Algorithm/homework/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-dualList
+
+
+#############################################
+# Order-only phony target for 01-dualList
+
+build cmake_object_order_depends_target_01-dualList: phony || homework/02-linkedList/CMakeFiles/01-dualList.dir
+
+build homework/02-linkedList/CMakeFiles/01-dualList.dir/01-dualList.cpp.obj: CXX_COMPILER__01-dualList_unscanned_Debug D$:/codes/Data_structure_and_Algorithm/homework/02-linkedList/01-dualList.cpp || cmake_object_order_depends_target_01-dualList
+  DEP_FILE = homework\02-linkedList\CMakeFiles\01-dualList.dir\01-dualList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = homework\02-linkedList\CMakeFiles\01-dualList.dir
+  OBJECT_FILE_DIR = homework\02-linkedList\CMakeFiles\01-dualList.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-dualList
+
+
+#############################################
+# Link the executable homework\02-linkedList\01-dualList.exe
+
+build homework/02-linkedList/01-dualList.exe: CXX_EXECUTABLE_LINKER__01-dualList_Debug homework/02-linkedList/CMakeFiles/01-dualList.dir/01-dualList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homework\02-linkedList\CMakeFiles\01-dualList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework\02-linkedList\01-dualList.exe
+  TARGET_IMPLIB = homework\02-linkedList\lib01-dualList.dll.a
+  TARGET_PDB = 01-dualList.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-bracketEditor
+
+
+#############################################
+# Order-only phony target for 02-bracketEditor
+
+build cmake_object_order_depends_target_02-bracketEditor: phony || homework/02-linkedList/CMakeFiles/02-bracketEditor.dir
+
+build homework/02-linkedList/CMakeFiles/02-bracketEditor.dir/02-bracketEditor.cpp.obj: CXX_COMPILER__02-bracketEditor_unscanned_Debug D$:/codes/Data_structure_and_Algorithm/homework/02-linkedList/02-bracketEditor.cpp || cmake_object_order_depends_target_02-bracketEditor
+  DEP_FILE = homework\02-linkedList\CMakeFiles\02-bracketEditor.dir\02-bracketEditor.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = homework\02-linkedList\CMakeFiles\02-bracketEditor.dir
+  OBJECT_FILE_DIR = homework\02-linkedList\CMakeFiles\02-bracketEditor.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-bracketEditor
+
+
+#############################################
+# Link the executable homework\02-linkedList\02-bracketEditor.exe
+
+build homework/02-linkedList/02-bracketEditor.exe: CXX_EXECUTABLE_LINKER__02-bracketEditor_Debug homework/02-linkedList/CMakeFiles/02-bracketEditor.dir/02-bracketEditor.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homework\02-linkedList\CMakeFiles\02-bracketEditor.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework\02-linkedList\02-bracketEditor.exe
+  TARGET_IMPLIB = homework\02-linkedList\lib02-bracketEditor.dll.a
+  TARGET_PDB = 02-bracketEditor.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-window
+
+
+#############################################
+# Order-only phony target for 03-window
+
+build cmake_object_order_depends_target_03-window: phony || homework/02-linkedList/CMakeFiles/03-window.dir
+
+build homework/02-linkedList/CMakeFiles/03-window.dir/03-window.cpp.obj: CXX_COMPILER__03-window_unscanned_Debug D$:/codes/Data_structure_and_Algorithm/homework/02-linkedList/03-window.cpp || cmake_object_order_depends_target_03-window
+  DEP_FILE = homework\02-linkedList\CMakeFiles\03-window.dir\03-window.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = homework\02-linkedList\CMakeFiles\03-window.dir
+  OBJECT_FILE_DIR = homework\02-linkedList\CMakeFiles\03-window.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-window
+
+
+#############################################
+# Link the executable homework\02-linkedList\03-window.exe
+
+build homework/02-linkedList/03-window.exe: CXX_EXECUTABLE_LINKER__03-window_Debug homework/02-linkedList/CMakeFiles/03-window.dir/03-window.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homework\02-linkedList\CMakeFiles\03-window.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework\02-linkedList\03-window.exe
+  TARGET_IMPLIB = homework\02-linkedList\lib03-window.dll.a
+  TARGET_PDB = 03-window.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04-operator
+
+
+#############################################
+# Order-only phony target for 04-operator
+
+build cmake_object_order_depends_target_04-operator: phony || homework/02-linkedList/CMakeFiles/04-operator.dir
+
+build homework/02-linkedList/CMakeFiles/04-operator.dir/04-operator.cpp.obj: CXX_COMPILER__04-operator_unscanned_Debug D$:/codes/Data_structure_and_Algorithm/homework/02-linkedList/04-operator.cpp || cmake_object_order_depends_target_04-operator
+  DEP_FILE = homework\02-linkedList\CMakeFiles\04-operator.dir\04-operator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = homework\02-linkedList\CMakeFiles\04-operator.dir
+  OBJECT_FILE_DIR = homework\02-linkedList\CMakeFiles\04-operator.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04-operator
+
+
+#############################################
+# Link the executable homework\02-linkedList\04-operator.exe
+
+build homework/02-linkedList/04-operator.exe: CXX_EXECUTABLE_LINKER__04-operator_Debug homework/02-linkedList/CMakeFiles/04-operator.dir/04-operator.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homework\02-linkedList\CMakeFiles\04-operator.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework\02-linkedList\04-operator.exe
+  TARGET_IMPLIB = homework\02-linkedList\lib04-operator.dll.a
+  TARGET_PDB = 04-operator.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build homework/02-linkedList/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\Data_structure_and_Algorithm\cmake-build-debug\homework\02-linkedList && "D:\Program Files (x86)\CLion\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build homework/02-linkedList/edit_cache: phony homework/02-linkedList/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build homework/02-linkedList/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codes\Data_structure_and_Algorithm\cmake-build-debug\homework\02-linkedList && "D:\Program Files (x86)\CLion\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\codes\Data_structure_and_Algorithm -BD:\codes\Data_structure_and_Algorithm\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build homework/02-linkedList/rebuild_cache: phony homework/02-linkedList/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build 01-dualList: phony homework/02-linkedList/01-dualList.exe
+
+build 01-dualList.exe: phony homework/02-linkedList/01-dualList.exe
+
+build 01-reverse: phony homework/01-hello/01-reverse.exe
+
+build 01-reverse.exe: phony homework/01-hello/01-reverse.exe
+
+build 01-stack: phony 03-Stack&Queue/01-stack/01-stack.exe
+
+build 01-stack.exe: phony 03-Stack&Queue/01-stack/01-stack.exe
+
+build 02-bracketEditor: phony homework/02-linkedList/02-bracketEditor.exe
+
+build 02-bracketEditor.exe: phony homework/02-linkedList/02-bracketEditor.exe
+
+build 03-window: phony homework/02-linkedList/03-window.exe
+
+build 03-window.exe: phony homework/02-linkedList/03-window.exe
+
+build 04-operator: phony homework/02-linkedList/04-operator.exe
+
+build 04-operator.exe: phony homework/02-linkedList/04-operator.exe
 
 build circleList: phony 02-linearList/circleList.exe
 
@@ -278,7 +668,7 @@ build sequentialList.exe: phony 02-linearList/sequentialList.exe
 #############################################
 # Folder: D:/codes/Data_structure_and_Algorithm/cmake-build-debug
 
-build all: phony 01-hello/all 02-linearList/all
+build all: phony 01-hello/all 02-linearList/all 03-Stack&Queue/all homework/all
 
 # =============================================================================
 
@@ -295,20 +685,62 @@ build 01-hello/all: phony
 build 02-linearList/all: phony 02-linearList/sequentialList.exe 02-linearList/linkList.exe 02-linearList/circleList.exe 02-linearList/doubleLinkedList.exe
 
 # =============================================================================
+
+#############################################
+# Folder: D:/codes/Data_structure_and_Algorithm/cmake-build-debug/03-Stack&Queue
+
+build 03-Stack&Queue/all: phony 03-Stack&Queue/01-stack/all 03-Stack&Queue/02-queue/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/codes/Data_structure_and_Algorithm/cmake-build-debug/03-Stack&Queue/01-stack
+
+build 03-Stack&Queue/01-stack/all: phony 03-Stack&Queue/01-stack/01-stack.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/codes/Data_structure_and_Algorithm/cmake-build-debug/03-Stack&Queue/02-queue
+
+build 03-Stack&Queue/02-queue/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: D:/codes/Data_structure_and_Algorithm/cmake-build-debug/homework
+
+build homework/all: phony homework/01-hello/all homework/02-linkedList/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/codes/Data_structure_and_Algorithm/cmake-build-debug/homework/01-hello
+
+build homework/01-hello/all: phony homework/01-hello/01-reverse.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/codes/Data_structure_and_Algorithm/cmake-build-debug/homework/02-linkedList
+
+build homework/02-linkedList/all: phony homework/02-linkedList/01-dualList.exe homework/02-linkedList/02-bracketEditor.exe homework/02-linkedList/03-window.exe homework/02-linkedList/04-operator.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/codes/Data_structure_and_Algorithm/01-hello/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/02-linearList/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/codes/Data_structure_and_Algorithm/01-hello/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/02-linearList/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/03-Stack&Queue/01-stack/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/03-Stack&Queue/02-queue/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/03-Stack&Queue/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/homework/01-hello/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/homework/02-linkedList/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/homework/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/codes/Data_structure_and_Algorithm/01-hello/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/02-linearList/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Program$ Files$ (x86)/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/codes/Data_structure_and_Algorithm/01-hello/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/02-linearList/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/03-Stack&Queue/01-stack/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/03-Stack&Queue/02-queue/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/03-Stack&Queue/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/homework/01-hello/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/homework/02-linkedList/CMakeLists.txt D$:/codes/Data_structure_and_Algorithm/homework/CMakeLists.txt: phony
 
 
 #############################################

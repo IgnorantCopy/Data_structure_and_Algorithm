@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "03-Stack&Queue/01-stack",
+		"source" : "03-Stack&Queue/01-stack"
+	}
+}

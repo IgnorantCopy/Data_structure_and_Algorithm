@@ -1,0 +1,26 @@
+# ninja log v6
+6	475	7490298291734676	homework/01-hello/CMakeFiles/01-reverse.dir/01-reverse.cpp.obj	b134d8675fd5eac4
+479	681	7490298296464340	homework/01-hello/01-reverse.exe	df56871ba48d254e
+9	511	7492785824217351	homework/02-linkedList/CMakeFiles/01-dualList.dir/01-dualList.cpp.obj	d15eb82fe151574d
+10	482	7492775988701508	homework/01-hello/CMakeFiles/01-reverse.dir/__/02-linkedList/01-dualList.cpp.obj	13e9bfd2a6916c38
+14	786	7493033250201899	homework/02-linkedList/CMakeFiles/02-bracketEditor.dir/02-bracketEditor.cpp.obj	668e029cb16a47f1
+512	709	7492785829246646	homework/02-linkedList/01-dualList.exe	553e08df3bd98e3d
+787	1061	7493033257938108	homework/02-linkedList/02-bracketEditor.exe	a316bc1d4cbc34c
+15	599	7493060557369368	homework/02-linkedList/CMakeFiles/03-window.dir/03-window.cpp.obj	146e155f33a4fd8e
+600	858	7493060563217710	homework/02-linkedList/03-window.exe	6855a3a0aecd2e1d
+11	873	7493251285691960	homework/02-linkedList/CMakeFiles/04-operator.dir/04-operator.cpp.obj	ffd522a0d6f5ed8
+874	1080	7493251294330847	homework/02-linkedList/04-operator.exe	80a4bbbbfdd847bf
+10	665	7493260041525710	homework/02-linkedList/CMakeFiles/04-operator.dir/04-operator.cpp.obj	ec9b3aa54d8dacbe
+666	870	7493260048084141	homework/02-linkedList/04-operator.exe	80a4bbbbfdd847bf
+10	737	7493260217680752	homework/02-linkedList/CMakeFiles/04-operator.dir/04-operator.cpp.obj	ec9b3aa54d8dacbe
+739	993	7493260224971964	homework/02-linkedList/04-operator.exe	80a4bbbbfdd847bf
+10	729	7493265249610698	homework/02-linkedList/CMakeFiles/04-operator.dir/04-operator.cpp.obj	ec9b3aa54d8dacbe
+730	934	7493265256814056	homework/02-linkedList/04-operator.exe	80a4bbbbfdd847bf
+13	878	7493272757344932	homework/02-linkedList/CMakeFiles/04-operator.dir/04-operator.cpp.obj	ec9b3aa54d8dacbe
+879	1099	7493272766012284	homework/02-linkedList/04-operator.exe	80a4bbbbfdd847bf
+11	924	7493273668356855	homework/02-linkedList/CMakeFiles/04-operator.dir/04-operator.cpp.obj	ec9b3aa54d8dacbe
+925	1143	7493273677503029	homework/02-linkedList/04-operator.exe	80a4bbbbfdd847bf
+9	947	7493274128925068	homework/02-linkedList/CMakeFiles/04-operator.dir/04-operator.cpp.obj	ec9b3aa54d8dacbe
+948	1160	7493274138321244	homework/02-linkedList/04-operator.exe	80a4bbbbfdd847bf
+11	916	7493274253976284	homework/02-linkedList/CMakeFiles/04-operator.dir/04-operator.cpp.obj	ec9b3aa54d8dacbe
+917	1160	7493274263037410	homework/02-linkedList/04-operator.exe	80a4bbbbfdd847bf

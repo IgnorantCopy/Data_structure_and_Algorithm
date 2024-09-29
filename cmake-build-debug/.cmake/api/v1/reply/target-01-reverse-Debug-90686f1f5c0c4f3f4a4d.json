@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "02-linearList/linkList.exe"
+			"path" : "homework/01-hello/01-reverse.exe"
 		},
 		{
-			"path" : "02-linearList/linkList.pdb"
+			"path" : "homework/01-hello/01-reverse.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"02-linearList/CMakeLists.txt"
+			"homework/01-hello/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 2,
+				"line" : 1,
 				"parent" : 0
 			}
 		]
@@ -38,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
@@ -48,7 +48,7 @@
 				[
 					1
 				],
-				"standard" : "14"
+				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "linkList::@6aea84b3daf2a468bdb3",
+	"id" : "01-reverse::@cd7e240c3b1ec685a974",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,12 +76,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "linkList",
-	"nameOnDisk" : "linkList.exe",
+	"name" : "01-reverse",
+	"nameOnDisk" : "01-reverse.exe",
 	"paths" : 
 	{
-		"build" : "02-linearList",
-		"source" : "02-linearList"
+		"build" : "homework/01-hello",
+		"source" : "homework/01-hello"
 	},
 	"sourceGroups" : 
 	[
@@ -91,13 +91,6 @@
 			[
 				0
 			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				1
-			]
 		}
 	],
 	"sources" : 
@@ -105,13 +98,8 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "02-linearList/src/linkedList.cpp",
+			"path" : "homework/01-hello/01-reverse.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "02-linearList/inc/linkedList.h",
-			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

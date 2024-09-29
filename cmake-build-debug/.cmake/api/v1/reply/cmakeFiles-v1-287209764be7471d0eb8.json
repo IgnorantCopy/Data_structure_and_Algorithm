@@ -155,6 +155,24 @@
 		},
 		{
 			"path" : "02-linearList/CMakeLists.txt"
+		},
+		{
+			"path" : "03-Stack&Queue/CMakeLists.txt"
+		},
+		{
+			"path" : "03-Stack&Queue/01-stack/CMakeLists.txt"
+		},
+		{
+			"path" : "03-Stack&Queue/02-queue/CMakeLists.txt"
+		},
+		{
+			"path" : "homework/CMakeLists.txt"
+		},
+		{
+			"path" : "homework/01-hello/CMakeLists.txt"
+		},
+		{
+			"path" : "homework/02-linkedList/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

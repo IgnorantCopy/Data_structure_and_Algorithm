@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "02-linearList/circleList.exe"
+			"path" : "homework/02-linkedList/03-window.exe"
 		},
 		{
-			"path" : "02-linearList/circleList.pdb"
+			"path" : "homework/02-linkedList/03-window.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"02-linearList/CMakeLists.txt"
+			"homework/02-linkedList/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -38,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
@@ -48,7 +48,7 @@
 				[
 					1
 				],
-				"standard" : "14"
+				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "circleList::@6aea84b3daf2a468bdb3",
+	"id" : "03-window::@a9f157b5314a6e09572c",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,12 +76,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "circleList",
-	"nameOnDisk" : "circleList.exe",
+	"name" : "03-window",
+	"nameOnDisk" : "03-window.exe",
 	"paths" : 
 	{
-		"build" : "02-linearList",
-		"source" : "02-linearList"
+		"build" : "homework/02-linkedList",
+		"source" : "homework/02-linkedList"
 	},
 	"sourceGroups" : 
 	[
@@ -91,13 +91,6 @@
 			[
 				0
 			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				1
-			]
 		}
 	],
 	"sources" : 
@@ -105,13 +98,8 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "02-linearList/src/circleList.cpp",
+			"path" : "homework/02-linkedList/03-window.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "02-linearList/inc/circleList.h",
-			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
