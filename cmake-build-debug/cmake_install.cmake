@@ -49,7 +49,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/Data_structure_and_Algorithm/cmake-build-debug/03-Stack&Queue/cmake_install.cmake")
+  include("D:/codes/Data_structure_and_Algorithm/cmake-build-debug/03-StackQueue/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
