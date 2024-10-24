@@ -1,4 +1,0 @@
-"D:\Program Files (x86)\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Program Files (x86)/CLion/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\codes\Data_structure_and_Algorithm -B D:\codes\Data_structure_and_Algorithm\cmake-build-debug
--- Configuring done (9.9s)
--- Generating done (0.1s)
--- Build files have been written to: D:/codes/Data_structure_and_Algorithm/cmake-build-debug
