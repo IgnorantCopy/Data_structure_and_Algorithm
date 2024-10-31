@@ -1,0 +1,1 @@
+add_executable(01-sparseMatrixTriple 01-sparseMatrixTriple.cpp 01-sparseMatrixTriple.h)
