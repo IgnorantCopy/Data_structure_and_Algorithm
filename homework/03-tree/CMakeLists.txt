@@ -1,0 +1,5 @@
+add_executable(01-snakeLevelOrder 01-snakeLevelOrder.cpp)
+add_executable(03-path 03-path.cpp)
+add_executable(04-subString 04-subString.cpp)
+add_executable(05-midOrder 05-midOrder.cpp)
+add_executable(02-rectangle 02-rectangle.cpp)
