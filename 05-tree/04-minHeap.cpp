@@ -4,15 +4,15 @@
 
 #include "04-minHeap.h"
 
-template<class T, class E>
-MinHeap<T, E>::MinHeap(int cap) {
+template<class E>
+MinHeap<E>::MinHeap(int cap) {
     capacity = max(defaultCapacity, cap);
     heap = new E[capacity];
     size = 0;
 }
 
-template<class T, class E>
-MinHeap<T, E>::MinHeap(E *arr, int n) {
+template<class E>
+MinHeap<E>::MinHeap(E *arr, int n) {
     capacity = max(defaultCapacity, n);
     heap = new E[capacity];
     size = n;
@@ -26,8 +26,8 @@ MinHeap<T, E>::MinHeap(E *arr, int n) {
     }
 }
 
-template<class T, class E>
-void MinHeap<T, E>::shiftDown(int start, int end) {
+template<class E>
+void MinHeap<E>::shiftDown(int start, int end) {
     int pos = start;
     int left = 2 * pos + 1;
     E temp = heap[pos];
@@ -45,8 +45,8 @@ void MinHeap<T, E>::shiftDown(int start, int end) {
     heap[pos] = temp;
 }
 
-template<class T, class E>
-bool MinHeap<T, E>::insert(E &e) {
+template<class E>
+bool MinHeap<E>::insert(E &e) {
     if (isFull()) {
         return false;
     }
@@ -56,8 +56,8 @@ bool MinHeap<T, E>::insert(E &e) {
     return true;
 }
 
-template<class T, class E>
-void MinHeap<T, E>::shiftUp(int start) {
+template<class E>
+void MinHeap<E>::shiftUp(int start) {
     int pos = start;
     int parent = (pos - 1) / 2;
     E temp = heap[pos];
@@ -69,8 +69,8 @@ void MinHeap<T, E>::shiftUp(int start) {
     heap[pos] = temp;
 }
 
-template<class T, class E>
-bool MinHeap<T, E>::remove(E &e) {
+template<class E>
+bool MinHeap<E>::remove(E &e) {
     if (isEmpty()) {
         return false;
     }

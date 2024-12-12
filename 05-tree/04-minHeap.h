@@ -11,15 +11,15 @@ using namespace std;
 
 const int defaultCapacity = 100;
 
-template<class T, class E>
+template<class E>
 class MinPriorityQueue {
 public:
     virtual bool insert(E &e) = 0;
     virtual bool remove(E &e) = 0;
 };
 
-template<class T, class E>
-class MinHeap: public MinPriorityQueue<T, E> {
+template<class E>
+class MinHeap: public MinPriorityQueue<E> {
     E *heap;
     int size = 0;
     int capacity = defaultCapacity;
