@@ -1,0 +1,5 @@
+add_executable(data data.cpp data.h)
+add_subdirectory(01-InsertSorting)
+add_subdirectory(02-ExchangeSort)
+add_subdirectory(03-selectSort)
+add_subdirectory(04-mergeSort)
