@@ -13,7 +13,7 @@ void binaryInsertSort(DataList<T> &list, const int left, const int right) {
         temp = list[i];
         int l = left;
         int r = i - 1;
-        while (l <= r) {
+        while (l < r) {
             int mid = (l + r) / 2;
             if (temp < list[mid]) {
                 r = mid - 1;
